@@ -33,8 +33,7 @@ public class FootballResult {
 	}
 	@Override
 	public String toString() {
-		return "FootballResult [countryInfo=" + countryInfo + ", leagueInfo=" + leagueInfo + ", teamInfo=" + teamInfo
-				+ ", leaguePosition=" + leaguePosition + "]";
+		return countryInfo + "\r\n" + leagueInfo + "\r\n" + teamInfo + "\r\n" + leaguePosition;
 	}
 	
 }
